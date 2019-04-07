@@ -13,15 +13,15 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 **Simple formatting**
 
 ```js
-"{} world!".format("Hello"); // => "Hello world"
-"rbg({r}, {g}, {b})".format({ r:10, g:20, b:20 }); // => "rbg(10, 20, 30);"
+"{} world!".format("Hello");                        // => "Hello world"
+"rbg({r}, {g}, {b})".format({ r:10, g:20, b:20 });  // => "rbg(10, 20, 30);"
 ```
 
 **String manipulation**
 
 ```js
-"hello world".titleCase(); // => "Hello World"
-"Hello World".camelCase(); // => "helloWorld"
+"hello world".titleCase();  // => "Hello World"
+"Hello World".camelCase();  // => "helloWorld"
 "Hello World".capitalize(); // => "Hello World"
 ```
 
