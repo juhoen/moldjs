@@ -10,13 +10,13 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 
 ## Some examples
 
-###Simple formatting
+**Simple formatting**
 
 ```js
 "{greeting} world!".format("Hello"); // => "Hello world"
 ```
 
-###String manipulation
+**String manipulation**
 
 ```js
 "hello world".titleCase(); // => "Hello World"
@@ -24,13 +24,13 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 "Hello World".capitalize(); // => "Hello World"
 ```
 
-###Splitting
+**Splitting**
 ```js
 "Hello, world!".parts() // => ["Hello,", "world!"]
 "Hello, world!".words() // => ["Hello", "world"]
 ```
 
-###Other
+**Other**
 ```js
 "Text with email address john.doe@example.com".linkify()
 // => 'Text with email address <a href="mailto:john.doe@example.com">john.doe@example.com</a>'
