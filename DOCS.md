@@ -7,6 +7,8 @@ JavaScript build-in string object
 **Kind**: global variable
 
 - [String](#String)
+  - [.startsWith(query, [index])](#String+startsWith) ⇒ <code>boolean</code>
+  - [.endsWith(query, [index])](#String+endsWith) ⇒ <code>boolean</code>
   - [.strip()](#String+strip) ⇒ <code>string</code>
   - [.parts()](#String+parts) ⇒ <code>Array.&lt;string&gt;</code>
   - [.words()](#String+words) ⇒ <code>Array.&lt;string&gt;</code>
@@ -19,6 +21,46 @@ JavaScript build-in string object
   - [.format(arguments)](#String+format) ⇒ <code>string</code>
   - [.linkify([target])](#String+linkify) ⇒ <code>string</code>
   - [.stripTags()](#String+stripTags) ⇒ <code>string</code>
+
+<a name="String+startsWith"></a>
+
+### string.startsWith(query, [index]) ⇒ <code>boolean</code>
+
+Determines whether a string begins with the characters of a specified string.
+
+**Kind**: instance method of [<code>String</code>](#String)  
+**Returns**: <code>boolean</code> - Boolean output
+
+| Param   | Type                | Default        | Description                            |
+| ------- | ------------------- | -------------- | -------------------------------------- |
+| query   | <code>string</code> |                | Specified string                       |
+| [index] | <code>int</code>    | <code>0</code> | Index determines where to start lookup |
+
+**Example**
+
+```js
+"Hello, world!".startsWith("Hello"); // true
+```
+
+<a name="String+endsWith"></a>
+
+### string.endsWith(query, [index]) ⇒ <code>boolean</code>
+
+Determines whether a string ends with the characters of a specified string.
+
+**Kind**: instance method of [<code>String</code>](#String)  
+**Returns**: <code>boolean</code> - Boolean output
+
+| Param   | Type                | Default        | Description                                                               |
+| ------- | ------------------- | -------------- | ------------------------------------------------------------------------- |
+| query   | <code>string</code> |                | Specified string                                                          |
+| [index] | <code>int</code>    | <code>0</code> | Index determines where to start lookup counted from the end of the string |
+
+**Example**
+
+```js
+"Hello, world!".endsWith("world!"); // true
+```
 
 <a name="String+strip"></a>
 
