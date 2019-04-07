@@ -39,7 +39,7 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 // => 'Text with email address <a href="mailto:john.doe@example.com">john.doe@example.com</a>'
 
 "Text with link https://enala.co".linkify();
-// => 'Text with link <a href="https://enala.co">https://enala.co</a>'
+// => 'Text with link <a href="https://enala.co" target="_blank">https://enala.co</a>'
 
 '<div class="sample"><p>This is <b>text</b>!</p></div>'.stripTags();
 // => "This is text!"
