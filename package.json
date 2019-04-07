@@ -1,0 +1,15 @@
+{
+  "name": "moldjs",
+  "version": "1.0.0",
+  "description": "String formatting library",
+  "main": "mold.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "author": "Juho Enala",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
