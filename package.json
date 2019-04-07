@@ -4,12 +4,14 @@
   "description": "JavaScript String expanded :tada:",
   "main": "mold.js",
   "scripts": {
-    "test": "mocha ./test"
+    "test": "mocha ./test",
+    "doc": "jsdoc2md lib/mold.js > DOCS.md && prettier --write DOCS.md"
   },
   "author": "Juho Enala",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
+    "jsdoc-to-markdown": "^4.0.1",
     "mocha": "^6.0.2"
   }
 }
