@@ -1,10 +1,11 @@
 <a name="String"></a>
 
 ## String
-**Kind**: global class  
+JavaScript build-in string object
+
+**Kind**: global variable  
 
 * [String](#String)
-    * [new String()](#new_String_new)
     * [.strip()](#String+strip) ⇒ <code>string</code>
     * [.parts()](#String+parts) ⇒ <code>Array.&lt;string&gt;</code>
     * [.words()](#String+words) ⇒ <code>Array.&lt;string&gt;</code>
@@ -17,11 +18,6 @@
     * [.format(arguments)](#String+format) ⇒ <code>string</code>
     * [.linkify([target])](#String+linkify) ⇒ <code>string</code>
     * [.stripTags()](#String+stripTags) ⇒ <code>string</code>
-
-<a name="new_String_new"></a>
-
-### new String()
-JavaScript build-in string object
 
 <a name="String+strip"></a>
 
