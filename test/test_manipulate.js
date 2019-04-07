@@ -64,3 +64,19 @@ describe("format", function() {
         assert.equal("{} {}".format('Hello', 'world'), "Hello world");
     });
 });
+
+describe("linkify", function() {
+    it("should linkify string", function() {
+        assert.equal("john.doe@example.com".linkify(), '<a href="mailto:john.doe@example.com">john.doe@example.com</a>');
+        assert.equal("www.google.com".linkify(), '<a href="http://www.google.com" target="_blank">www.google.com</a>');
+        assert.equal("https://google.com".linkify(), '<a href="https://google.com" target="_blank">https://google.com</a>');
+        assert.equal("https://google.com".linkify("_top"), '<a href="https://google.com" target="_top">https://google.com</a>');
+    });
+});
+
+describe("stripTags", function() {
+    it("should strip tags", function() {
+        assert.equal('<div>This is <b style="color: red;">HTML</b></div>'.stripTags(), "This is HTML");
+        assert.equal('Test<code>123</code>'.stripTags(), "Test123");
+    });
+});
