@@ -13,7 +13,8 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 ###Simple formatting
 
 ```js
-"{greeting} world!".format("Hello"); // => "Hello world"
+"{} world!".format("Hello"); // => "Hello world"
+"rbg({r}, {g}, {b})".format({ r:10, g:20, b:20 }); // => "rbg(10, 20, 30);"
 ```
 
 ###String manipulation
