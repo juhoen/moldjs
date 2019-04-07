@@ -13,8 +13,8 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 **Simple formatting**
 
 ```js
-"{} world!".format("Hello");                        // => "Hello world"
-"rbg({r}, {g}, {b})".format({ r:10, g:20, b:20 });  // => "rbg(10, 20, 30);"
+"{} world!".format("Hello");                           // => "Hello world"
+"rbg({r}, {g}, {b})".format({ r: 10, g: 20, b: 20 });  // => "rbg(10, 20, 30);"
 ```
 
 **String manipulation**
@@ -26,19 +26,21 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 ```
 
 **Splitting**
+
 ```js
-"Hello, world!".parts() // => ["Hello,", "world!"]
-"Hello, world!".words() // => ["Hello", "world"]
+"Hello, world!".parts(); // => ["Hello,", "world!"]
+"Hello, world!".words(); // => ["Hello", "world"]
 ```
 
 **Other**
+
 ```js
-"Text with email address john.doe@example.com".linkify()
+"Text with email address john.doe@example.com".linkify();
 // => 'Text with email address <a href="mailto:john.doe@example.com">john.doe@example.com</a>'
 
-"Text with link https://enala.co".linkify()
+"Text with link https://enala.co".linkify();
 // => 'Text with link <a href="https://enala.co">https://enala.co</a>'
 
-'<div class="sample"><p>This is <b>text</b>!</p></div>'.stripTags()
+'<div class="sample"><p>This is <b>text</b>!</p></div>'.stripTags();
 // => "This is text!"
 ```
