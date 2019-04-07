@@ -6,7 +6,7 @@ Goal of the MoldJS project is to expand JavaScript string functionality by provi
 
 ## Documentation
 
-Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/blob/master/DOCUMENTATION.md).
+Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/blob/master/DOCS.md).
 
 ## Some examples
 
