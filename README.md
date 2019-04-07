@@ -1,6 +1,4 @@
-# MoldJS
-
-## JavaScript String object - expanded
+# MoldJS - JavaScript String object expanded
 
 Goal of the MoldJS project is to expand JavaScript string functionality by providing powerful shutcut methods. MoldJS expands String prototype keeping string manipulation simple. MoldJS is light-weight and has zero dependencies.
 
