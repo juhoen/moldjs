@@ -1,7 +1,7 @@
 {
   "name": "moldjs",
   "version": "1.0.0",
-  "description": "String formatting library",
+  "description": "JavaScript String expanded :tada:",
   "main": "mold.js",
   "scripts": {
     "test": "mocha ./test"
