@@ -19,8 +19,8 @@ Documentation can be found by clicking [here](https://github.com/juhoen/moldjs/b
 
 ```js
 "hello world".titleCase();  // => "Hello World"
-"Hello World".camelCase();  // => "helloWorld"
-"Hello World".capitalize(); // => "Hello World"
+"hello world".camelCase();  // => "helloWorld"
+"hello world".capitalize(); // => "Hello world"
 ```
 
 **Splitting**
